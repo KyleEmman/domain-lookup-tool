@@ -601,7 +601,7 @@ export default function DomainLookup() {
                         <button
                             type="submit"
                             disabled={loading || !domain.trim()}
-                            className="w-full bg-primary text-primary-foreground py-2 px-4 rounded-md hover:bg-primary/90 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                            className="border w-full bg-primary text-primary-foreground py-2 px-4 rounded-md hover:bg-primary/90 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 disabled:hover:shadow-none transition-all duration-200 ease-in-out"
                             aria-describedby={
                                 loading ? "domain-loading" : undefined
                             }
